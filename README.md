@@ -56,7 +56,7 @@ AI-INVOICE-INTELLIGENCE-SYSTEM/
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/AI-INVOICE-INTELLIGENCE-SYSTEM.git]
+git clone [https://github.com/mlkzaki3115/AI-Invoice-Intelligence-System-IDP-Engine-.git]
 ```
 
 ### 2. Set Up a Virtual Environment
