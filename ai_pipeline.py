@@ -139,13 +139,3 @@ def process_and_extract(file_bytes: bytes, filename: str) -> Tuple[InvoiceData, 
     extracted_data = extract_invoice_from_image(image)
     return extracted_data, image
 
-
-if __name__ == "__main__":
-    test_image_path = "test_invoices/sample.png"
-    if os.path.exists(test_image_path):
-        with open(test_image_path, "rb") as f:
-            data, _ = process_and_extract(f.read(), "sample.png")
-            print("\n--- Extraction Successful ---")
-            print(data.model_dump_json(indent=2))
-    else:
-        print(f"الملف غير موجود في: {test_image_path}")
